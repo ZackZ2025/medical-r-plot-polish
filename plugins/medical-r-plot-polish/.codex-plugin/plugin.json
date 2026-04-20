@@ -1,0 +1,41 @@
+{
+  "name": "medical-r-plot-polish",
+  "version": "0.1.0",
+  "description": "Plugin with a skill for optimizing medical R figures across clinical statistics and omics workflows.",
+  "author": {
+    "name": "Zhu",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "https://github.com/ZackZ2025/medical-r-plot-polish",
+  "repository": "https://github.com/ZackZ2025/medical-r-plot-polish",
+  "license": "MIT",
+  "keywords": [
+    "r",
+    "medical-visualization",
+    "clinical-statistics",
+    "omics",
+    "ggplot2"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Medical R Plot Polish",
+    "shortDescription": "Optimize clinical and omics R figures for publication",
+    "longDescription": "A plugin that adds a skill for choosing packages and refining manuscript-ready medical R figures, including survival, ROC, forest, heatmap, volcano, enrichment, and single-cell plots.",
+    "developerName": "Zhu",
+    "category": "Science",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ZackZ2025/medical-r-plot-polish",
+    "privacyPolicyURL": "",
+    "termsOfServiceURL": "",
+    "defaultPrompt": [
+      "Polish this Kaplan-Meier or ROC figure for a medical manuscript.",
+      "Choose the right R packages and style for this omics figure.",
+      "Make this clinical or single-cell plot look Nature-like or Cell-like."
+    ],
+    "brandColor": "#2F6F73"
+  }
+}
