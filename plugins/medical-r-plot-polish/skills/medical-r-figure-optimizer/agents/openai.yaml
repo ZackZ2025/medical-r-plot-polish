@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical R Figure Optimizer"
+  short_description: "Polish clinical and omics R figures for publication"
+  default_prompt: "Polish this clinical or omics R figure with journal-ready styling and the right medical R package stack."
